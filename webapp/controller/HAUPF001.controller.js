@@ -32,6 +32,7 @@ sap.ui.define([
             this._oModel = this.getOwnerComponent().getModel();
             this._mViewSettingsDialogs = {};
             this.mGroupFunctions = {};
+
             sap.ui.getCore().getConfiguration().setLanguage("de");
 
         },
